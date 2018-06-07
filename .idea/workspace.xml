@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9f1e5d87-3623-4130-95ee-9be1d1811209" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +17,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="146" column="82" selection-start-line="146" selection-start-column="82" selection-end-line="146" selection-end-column="82" />
+            <state relative-caret-position="1029">
+              <caret line="142" column="139" selection-start-line="142" selection-start-column="139" selection-end-line="142" selection-end-column="139" />
               <folding>
                 <element signature="e#2848#2854#0" expanded="true" />
                 <element signature="e#2860#2866#0" expanded="true" />
@@ -32,7 +31,7 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1410">
+            <state relative-caret-position="-2820">
               <caret line="535" column="14" lean-forward="true" selection-start-line="535" selection-start-column="14" selection-end-line="535" selection-end-column="14" />
             </state>
           </provider>
@@ -50,6 +49,8 @@
       <find>detail</find>
       <find>z-index</find>
       <find>floodga</find>
+      <find>banner.jp</find>
+      <find>slide</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -86,6 +87,11 @@
               <item name="guessmarket.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="guessmarket.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guessmarket.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guessmarket.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -174,18 +180,25 @@
       <option name="project" value="LOCAL" />
       <updated>1495666714724</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Updates&#10;Mailing list">
+      <created>1528361384515</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1528361384515</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="132" y="60" width="3715" height="2109" extended-state="0" />
+    <frame x="114" y="-7" width="3726" height="2167" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24952893" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24879228" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32996464" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
@@ -208,7 +221,8 @@
     <MESSAGE value="prettier website" />
     <MESSAGE value="publishin the page" />
     <MESSAGE value="pic resize" />
-    <option name="LAST_COMMIT_MESSAGE" value="pic resize" />
+    <MESSAGE value="Updates&#10;Mailing list" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updates&#10;Mailing list" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
@@ -223,20 +237,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/banner1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1410">
+        <state relative-caret-position="-2820">
           <caret line="535" column="14" lean-forward="true" selection-start-line="535" selection-start-column="14" selection-end-line="535" selection-end-column="14" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/banner2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/banner1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="146" column="82" selection-start-line="146" selection-start-column="82" selection-end-line="146" selection-end-column="82" />
+        <state relative-caret-position="1029">
+          <caret line="142" column="139" selection-start-line="142" selection-start-column="139" selection-end-line="142" selection-end-column="139" />
           <folding>
             <element signature="e#2848#2854#0" expanded="true" />
             <element signature="e#2860#2866#0" expanded="true" />
