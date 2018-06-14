@@ -8,7 +8,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Trader.Cafe</title>
+<title>Guess.Market</title>
 
 <link href="css/style.css" rel="stylesheet">
 
@@ -92,7 +92,7 @@ $(document).ready(function(e) {
 
        scrollTop: target.offset().top-0
 
-       }, 3000);
+       }, 1000);
 
        return false;
 
@@ -118,6 +118,16 @@ $(window).load(function(e) {
 
 });
 
+
+</script>
+
+<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+<script type="text/javascript">
+function showMailingPopUp() {
+    require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us11.list-manage.com","uuid":"01e0a259b5dc65c131a93cd61","lid":"67ef7e8e8d"}) });
+    document.cookie = "MCPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
+    document.cookie = "MCPopupSubscribed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
+};
 </script>
 
 </head>
@@ -130,13 +140,13 @@ $(window).load(function(e) {
 
   <header>
 
-    <div class="wrapper"> <a class="logo" href="index.html"><!--<img src="images/logo.png" alt="no-img">--> <span class="seer_text">trader.cafe<!--<span>E</span>--></span></a> <span class="small-menu"><i class="fa fa-bars" aria-hidden="true"></i>MENU</span>
+    <div class="wrapper"> <a class="logo" href="index.html"><!--<img src="images/logo.png" alt="no-img">--> <span class="seer_text">Guess.Market</span></a> <span class="small-menu"><i class="fa fa-bars" aria-hidden="true"></i>MENU</span>
 
       <ul class="menu_ul">
 
-        <li><a href="javascript:void(0)">&nbsp;&nbsp;Home&nbsp;&nbsp;</a></li>
+        <!--li><a href="javascript:void(0)">&nbsp;&nbsp;Home&nbsp;&nbsp;</a></li-->
 
-        <li><a href="#event-id">&nbsp;Events&nbsp;</a></li>
+        <li><a href="#event-id">&nbsp;Status&nbsp;</a></li>
 
         <li><a href="#feature-id">Features</a></li>
 
@@ -146,7 +156,7 @@ $(window).load(function(e) {
 
         <li><a href="#jobs-id">&nbsp;&nbsp;Jobs&nbsp;&nbsp;</a></li>
 
-        <li><a href="#team-id">&nbsp;&nbsp;Team&nbsp;&nbsp;</a></li>
+        <!--li><a href="#team-id">&nbsp;&nbsp;Team&nbsp;&nbsp;</a></li-->
 
         <li><a href="#media-id">&nbsp;Media&nbsp;</a></li>
         <li><a href="#contact-id">Contact</a></li>
@@ -167,13 +177,13 @@ $(window).load(function(e) {
 
     <li>
 
-      <div class="banner"><img src="images/banner1.jpg" alt="no img"></div>
+      <div class="banner"><img src="images/newspaper.jpg" alt="no img"></div>
 
     </li>
 
     <li>
 
-      <div class="banner"><img src="images/banner2.jpg" alt="no img"></div>
+      <div class="banner"><img src="images/chart.jpg" alt="no img"></div>
 
     </li>
 
@@ -185,7 +195,7 @@ $(window).load(function(e) {
 
    <div class="wrapper">
 
-          <div class="banner_text"> <span class="lorem_ipsum">A new way of investing</span> <span class="tagline">Investing decisions by we the people, for we the people</span> <a class="get_more" href="#">Get ready</a> </div>
+          <div class="banner_text"> <span class="lorem_ipsum">Guess.Market</span> <span class="tagline">Trading powered by crowd intelligence</span> <a class="get_more" href="javascript:showMailingPopUp()">Get ready</a> </div>
 
      </div>
 
@@ -205,21 +215,21 @@ $(window).load(function(e) {
 
     <div class="events" id="event-id">
 
-      <div class="wrapper"> <span class="events_heading">EVENT</span>
+      <div class="wrapper"> <span class="events_heading">STATUS</span>
 
         <div class="event_main"> <span class="event_img"><!--<img src="images/event_img.png" alt="no-img">--></span>
 
-          <div class="event_detail"> <span class="event_title">PoC</span> <span class="event_desc">Proof of Concept is under development. Copying trades between trader and follower Done. We are implementing sentiment sharing by voting up an asset or voting down.</span>
+          <div class="event_detail"> <span class="event_title">PoC</span> <span class="event_desc">Proof of concept is under development. Right now we are able to share news, predict market, analyze submitted votes and come up with a trading strategy.</span>
 
             <ul class="event_ul">
 
-              <li><span class="days">DAYS</span><span class="digits">30</span></li>
+              <li><span class="days">REMAINING</span><span class="digits">&nbsp;</span></li>
+
+              <li><span class="days">MONTHS</span><span class="digits">3</span></li>
+
+              <li><span class="days">DAYS</span><span class="digits">0</span></li>
 
               <li><span class="days">HOURS</span><span class="digits">0</span></li>
-
-              <li><span class="days">MINUTES</span><span class="digits">0</span></li>
-
-              <li><span class="days">SECOND</span><span class="digits">0</span></li>
 
             </ul>
 
@@ -227,7 +237,7 @@ $(window).load(function(e) {
 
         </div>
 
-        <a class="get_more" href="#">Learn More</a> </div>
+        <a class="get_more" href="javascript:showMailingPopUp()">Join Mailing List</a> </div>
 
     </div>
 
@@ -241,39 +251,39 @@ $(window).load(function(e) {
 
       <div class="wrapper">
 
-        <div class="heading"><span class="feature_heading">Features Proposed</span></div>
+        <div class="heading"><span class="feature_heading">Features</span></div>
 
         <ul class="feature_ul">
 
           <li><a href="#">
 
-            <div class="feature_main"> <span class="feature_img"><img src="images/feature_img1.png" alt="no-img"></span> <span class="feature_name">Sharing</span> <span class="feature_description">Great traders will share their orders with followers</span> </div>
+            <div class="feature_main"> <span class="feature_img"><img src="images/feature_img3.png" alt="no-img"></span> <span class="feature_name">Discovery</span> <span class="feature_description">Market moving news will be discovered by the crowd and NLP in minutes</span> </div>
 
             </a> </li>
 
           <li><a href="#">
 
-            <div class="feature_main"> <span class="feature_img"><img src="images/feature_img2.png" alt="no-img"></span> <span class="feature_name">Follows</span> <span class="feature_description">Automatically following positions of the traders</span> </div>
+            <div class="feature_main"> <span class="feature_img"><img src="images/feature_img2.png" alt="no-img"></span> <span class="feature_name">Sentiments</span> <span class="feature_description">The news will be read and sentiments will be posted by the crowd</span> </div>
 
             </a> </li>
 
           <li><a href="#">
 
-            <div class="feature_main"> <span class="feature_img"><img src="images/feature_img3.png" alt="no-img"></span> <span class="feature_name">Discovery</span> <span class="feature_description">Tools to find the best traders</span> </div>
+            <div class="feature_main"> <span class="feature_img"><img src="images/feature_img6.png" alt="no-img"></span> <span class="feature_name">Machines</span> <span class="feature_description">Machine learning will help find best possible future performers among the crowd</span> </div>
 
             </a> </li>
 
           <li><a href="#">
 
-            <div class="feature_main"> <span class="feature_img"><img src="images/feature_img4.png" alt="no-img"></span> <span class="feature_name">Sentiments</span> <span class="feature_description">Voting up or down an asset to share sentiment</span> </div>
+            <div class="feature_main"> <span class="feature_img"><img src="images/feature_img1.png" alt="no-img"></span> <span class="feature_name">Trading</span> <span class="feature_description">Automated systems that trade the sentiment before everyone else</span> </div>
 
             </a> </li>
 
-          <li><a href="#">
+          <!--li><a href="#">
 
             <div class="feature_main"> <span class="feature_img"><img src="images/feature_img5.png" alt="no-img"></span> <span class="feature_name">Research</span> <span class="feature_description">Sophisticated research to give insight into who to follow</span> </div>
 
-            </a> </li>
+            </a> </li-->
 
           <!--li><a href="#">
 
@@ -317,7 +327,7 @@ $(window).load(function(e) {
 
               <div class="timeline_box"> <span class="timeline_img"><img src="images/timeline_img1.png" alt="no-img"></span>
 
-                <div class="timeline_detail"> <span class="timeline_name">PROJECT CONCEIVED</span> - <span class="timeline_year">May 2017</span> <span class="timeline_desc">After realizing that block chain can disrupt pretty much everything, we started talking about the social trading idea and beyond</span> <a href="#" class="timeline_read_more">Read More >></a> </div>
+                <div class="timeline_detail"> <span class="timeline_name">PROJECT CONCEIVED</span><br/><span class="timeline_year">May 2017</span> <span class="timeline_desc">We researched a few social trading platforms, then thinking about it on cryptocurrency space. We realized cryptocurrencies are disruptive and also opportunities are abound.</span> <!--a href="#" class="timeline_read_more">Read More >></a--> </div>
 
               </div>
 
@@ -327,7 +337,7 @@ $(window).load(function(e) {
 
               <div class="timeline_box"> <span class="timeline_img"><img src="images/timeline_img2.png" alt="no-img"></span>
 
-                <div class="timeline_detail"> <span class="timeline_name">CONSENSUS 2017</span> - <span class="timeline_year">May 2017</span> <span class="timeline_desc">Founder attends the event series in NY: Ethereal, Consensus, Token Summit</span> <a href="#" class="timeline_read_more">Read More >></a> </div>
+                <div class="timeline_detail"> <span class="timeline_name">SOCIAL TRADING</span><br/><span class="timeline_year">October 2017</span> <span class="timeline_desc">We developed a social trading website. We realized the volumes needs to get bigger to support mainstream social trading.</span> <!--a href="#" class="timeline_read_more">Read More >></a--> </div>
 
               </div>
 
@@ -338,7 +348,7 @@ $(window).load(function(e) {
               <div class="timeline_box"> <span class="timeline_img"><img src="images/timeline_img3.png" alt="no-img"></span>
 
 
-                <div class="timeline_detail"> <span class="timeline_name">INITIAL TEAM FORMATION</span> <span class="timeline_year">2017</span> <span class="timeline_desc">A great project can only be realized by a great team</span> <a href="#" class="timeline_read_more">Read More >></a> </div>
+                <div class="timeline_detail"> <span class="timeline_name">FIRST PROTOTYPE</span><br/><span class="timeline_year">March 2018</span> <span class="timeline_desc">The market has turned to a regime that is mostly affected by regulation news and technical analysis. Started developing a news app to capture trader sentiment.</span> <!--a href="#" class="timeline_read_more">Read More >></a--> </div>
               </div>
 
             </li>
@@ -347,7 +357,7 @@ $(window).load(function(e) {
 
               <div class="timeline_box"> <span class="timeline_img"><img src="images/timeline_img4.png" alt="no-img"></span>
 
-                <div class="timeline_detail"> <span class="timeline_name">PROTOTYPE</span> <span class="timeline_year"></span> <span class="timeline_desc">Tell me and I forget. Show me and I forget. Let me do it. I will remember.</span> <a href="#" class="timeline_read_more">Read More >></a> </div>
+                <div class="timeline_detail"> <span class="timeline_name">ALPHA</span><br/> <span class="timeline_year"></span> <span class="timeline_desc">We'll make the app available to first users. First trials of real-time trading will be conducted. Primitive machine learning algorithms start to emerge.</span> <!--a href="#" class="timeline_read_more">Read More >></a--> </div>
 
               </div>
 
@@ -357,13 +367,34 @@ $(window).load(function(e) {
 
               <div class="timeline_box"> <span class="timeline_img"><img src="images/timeline_img1.png" alt="no-img"></span>
 
-                <div class="timeline_detail"> <span class="timeline_name">WHITE PAPER</span> <span class="timeline_year"></span> <span class="timeline_desc">To explain the inner workings of our technology we will need a detailed white paper</span> <a href="#" class="timeline_read_more">Read More >></a> </div>
+                <div class="timeline_detail"> <span class="timeline_name">BETA</span><br/><span class="timeline_year"></span> <span class="timeline_desc">Public beta will enable us to test the whole platform in depth and find out about the bugs. Extensive trials of real-time trading will be conducted with larger fund. Advanced machine learning research starts.</span> <!--a href="#" class="timeline_read_more">Read More >></a--> </div>
 
               </div>
 
             </li>
 
-          </ul>
+            <li>
+
+              <div class="timeline_box"> <span class="timeline_img"><img src="images/timeline_img1.png" alt="no-img"></span>
+
+                <div class="timeline_detail"> <span class="timeline_name">BUG BOUNTY</span><br/><span class="timeline_year"></span> <span class="timeline_desc">Before taking the platform to the masses, we'll pay coders who submit critical bugs.</span> <!--a href="#" class="timeline_read_more">Read More >></a--> </div>
+
+              </div>
+
+            </li>
+
+            <li>
+
+              <div class="timeline_box"> <span class="timeline_img"><img src="images/timeline_img1.png" alt="no-img"></span>
+
+                <div class="timeline_detail"> <span class="timeline_name">LIVE</span><br/><span class="timeline_year"></span> <span class="timeline_desc">Platform used by multiple people, funds operating real-time.</span> <!--a href="#" class="timeline_read_more">Read More >></a--> </div>
+
+              </div>
+
+            </li>
+
+
+	</ul>
 
         </div>
 
@@ -384,9 +415,9 @@ $(window).load(function(e) {
 
           <li><a href="https://steemit.com/social/@deaddy/social-trading-and-blockchain">
 
-            <div class="news_img"><img src="images/news_img5.png" alt="no-img"> <span class="news_date">2 <span class="news_month">JUL<span class="news_year">2017</span></span></span></div>
+            <div class="news_img"><img src="images/news_img4.png" alt="no-img"> <span class="news_date">2 <span class="news_month">JUL<span class="news_year">2017</span></span></span></div>
 
-            <span class="news_desc">Social Trading and Blockchain</span> </a></li>
+            <span class="news_desc">Social Trading and Blockchain</span><br/><br/> </a></li>
 
           <li><a href="https://steemit.com/eos/@deaddy/eos-there-is-a-new-block-chain-in-town">
 
@@ -412,11 +443,11 @@ $(window).load(function(e) {
 
             <span class="news_desc">Crypto coins could have been ridiculously good investments</span> </a></li>
 
-          <li><a href="https://steemit.com/satoshi/@deaddy/the-floodgates-are-open">
+          <!--li><a href="https://steemit.com/satoshi/@deaddy/the-floodgates-are-open">
 
             <div class="news_img"><img src="images/news_img4.png" alt="no-img"> <span class="news_date">4 <span class="news_month">MAY<span class="news_year">2017</span></span></span></div>
 
-            <span class="news_desc">The floodgates are OPEN</span> </a></li>
+            <span class="news_desc">The floodgates are OPEN</span> </a></li-->
 
           <li><a href="https://steemit.com/trading/@deaddy/bitcoin-vs-alts-battle-of-the-beasts">
 
@@ -466,33 +497,33 @@ $(window).load(function(e) {
 
     <div class="jobs" id="jobs-id">
 
-      <div class="wrapper"> <span class="forty">7</span>
+      <div class="wrapper"> <span class="forty">&#x1f4bb;</span>
 
-        <div class="job_right"> <span class="job_heading">Jobs</span> <span class="job_desc">If you want to be part of trader.cafe project, let us know!</span> </div>
+        <div class="job_right"> <span class="job_heading">Jobs</span> <span class="job_desc">If you want to be part of Guess.Market project, let us know! We are new and are looking to hire first key people.</span> </div>
 
         <ul class="job_ul">
 
           <li>
 
-            <div class="job_box"> <span class="job_img"><img src="images/job_img1.png" alt="no-img"></span> <span class="job_number">2</span> <span class="job_desc">Python Developer</span> </div>
+            <div class="job_box"> <span class="job_img"><img src="images/job_img1.png" alt="no-img"></span> <span class="job_number">*</span> <span class="job_desc"><del>Python Developer</del></span> </div>
 
           </li>
 
           <li>
 
-            <div class="job_box"> <span class="job_img"><img src="images/job_img2.png" alt="no-img"></span> <span class="job_number">1</span> <span class="job_desc">C++ Developer</span> </div>
+            <div class="job_box"> <span class="job_img"><img src="images/job_img2.png" alt="no-img"></span> <span class="job_number">*</span> <span class="job_desc">ML Developer</span> </div>
 
           </li>
 
           <li>
 
-            <div class="job_box"> <span class="job_img"><img src="images/job_img3.png" alt="no-img"></span> <span class="job_number">1</span> <span class="job_desc">VP of Marketing</span> </div>
+            <div class="job_box"> <span class="job_img"><img src="images/job_img3.png" alt="no-img"></span> <span class="job_number">*</span> <span class="job_desc">Community Evangelist</span> </div>
 
           </li>
 
           <li>
 
-            <div class="job_box"> <span class="job_img"><img src="images/job_img4.png" alt="no-img"></span> <span class="job_number">3</span> <span class="job_desc">ML Coder</span> </div>
+            <div class="job_box"> <span class="job_img"><img src="images/job_img4.png" alt="no-img"></span> <span class="job_number">*</span> <span class="job_desc"><del>Mobile Developer</del></span> </div>
 
           </li>
 
@@ -608,30 +639,22 @@ $(window).load(function(e) {
 
     <div class="media" id="media-id">
 
-      <div class="wrapper"> <span class="events_heading">MEDIA</span>
-
-        <!--ul class="media_ul">
-
-          <li> <span class="media_img"><img src="images/media_img1-hover.png" alt="media_img"></span> <span class="media_img2"><img src="images/media_img1.png" alt="media_img"></span> <span class="media_detail">Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</span> </li>
-
-          <li> <span class="media_img"><img src="images/media_img2.png" alt="media_img"></span> <span class="media_img2"><img src="images/media_img2-hover.png" alt="media_img"></span> <span class="media_detail">Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</span> </li>
-
-          <li> <span class="media_img"><img src="images/media_img3.png" alt="media_img"></span> <span class="media_img2"><img src="images/media_img3-hover.png" alt="media_img"></span> <span class="media_detail">Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</span> </li>
-
-        </ul-->
+      <div class="wrapper"> <span class="events_heading">MEDIA & APPS</span>
 
         <ul class="platform_ul">
 
-          <li><a href="https://medium.com/" target="_blank"><img src="images/platform_img1.png" alt="no-img"></a></li>
+          <li><a href="https://medium.com/guess-market" target="_blank"><img src="images/platform_img1.png" alt="no-img"></a></li>
 
-          <li><a href="https://slack.com/" target="_blank"><img src="images/platform_img2.png" alt="no-img"></a></li>
+          <!--li><a href="https://slack.com/" target="_blank"><img src="images/platform_img2.png" alt="no-img"></a></li-->
 
-          <li><a href="https://steemit.com/" target="_blank"><img src="images/platform_img3.png" alt="no-img"></a></li>
+          <!--li><a href="https://steemit.com/" target="_blank"><img src="images/platform_img3.png" alt="no-img"></a></li-->
 
-          <li><a href="https://github.com/tradercafe" target="_blank"><img src="images/platform_img4.png" alt="no-img"></a></li>
+          <li><a href="https://github.com/guessmarket" target="_blank"><img src="images/platform_img4.png" alt="no-img"></a></li>
 
-          <li><a href="https://www.reddit.com/" target="_blank"><img src="images/platform_img5.png" alt="no-img"></a></li>
+          <li><a href="https://www.reddit.com/r/GuessMarket/" target="_blank"><img src="images/platform_img5.png" alt="no-img" style="vertical-align:middle"></a></li>
 
+          <li><a href="https://play.google.com/store/apps/details?id=com.gm.guessmarket" target="_blank"><img style="height:60px; vertical-align:middle" src="images/gx70.png" alt="no-img"></a></li>
+          <!--li><a target="_blank"><img src="images/ax70.png" alt="no-img" style="height:45px; vertical-align:middle"></a></li-->
         </ul>
 
       </div>
@@ -742,7 +765,7 @@ $(window).load(function(e) {
 
     <div class="copyright">
 
-      <div class="wrapper">info@seer.one</div>
+      <div class="wrapper">info@guess.market</div>
 
     </div>
 
