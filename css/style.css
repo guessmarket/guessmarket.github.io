@@ -86,7 +86,7 @@ header
 	top:0;
 	left:0;
 	z-index:9;
-	border-bottom:1px solid #747282;
+	border-bottom:0px solid #747282;
 }
 .logo
 {
@@ -176,6 +176,8 @@ header
 	top:50%;
 	left:0px;
 	margin-top:-185.5px;
+	padding-bottom:30px;
+	background:rgba(0,0,0,.40);
 }
 .banner_text
 {
@@ -1607,6 +1609,9 @@ footer
 	}
 	.now{
 		display:none;
+	}
+	.slider_text_main{
+	    background:rgba(0,0,0,.70);
 	}
 	.lorem_ipsum{
 		font-size:30px;
