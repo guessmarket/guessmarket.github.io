@@ -6,6 +6,20 @@
 }
 
 @font-face {
+  font-family: 'Exquisite';
+  src: url('../fonts/Exquisite.ttf?#iefix') format('truetype'),  url('../fonts/OpenSans.ttf')  format('truetype'), url('../fonts/OpenSans.svg#OpenSans') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NeoSans';
+  src: url('../fonts/NeoSansTR.otf?#iefix') format('opentype'),  url('../fonts/OpenSans.ttf')  format('truetype'), url('../fonts/OpenSans.svg#OpenSans') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'OpenSans-Extrabold';
   src: url('../fonts/OpenSans-Extrabold.eot?#iefix') format('embedded-opentype'),  url('../fonts/OpenSans-Extrabold.woff') format('woff'), url('../fonts/OpenSans-Extrabold.ttf')  format('truetype'), url('../fonts/OpenSans-Extrabold.svg#OpenSans-Extrabold') format('svg');
   font-weight: normal;
@@ -82,9 +96,10 @@ header
 	margin:23px 0px;
 }
 .seer_text{
-	color: #01c3dc;
+	/*color: #01c3dc;*/
+	color: white;
 	font-size: 20px;
-	font-family: 'OpenSans';
+	font-family: 'Exquisite';
 	display: inline-block;
 	position: absolute;
 	top: 50%;
@@ -157,11 +172,11 @@ header
 .slider_text_main{
 	width:100%;
 	float:left;
-	z-index:999;
+	z-index:3;
 	position:absolute;
 	top:50%;
 	left:0px;
-	margin-top:-85.5px;
+	margin-top:-185.5px;
 }
 .banner_text
 {
@@ -172,34 +187,32 @@ header
 {
 	display:inline-block;
 	width:100%;
-	font-family: 'OpenSans';
-	font-size:50px;
+	font-family: 'Exquisite';
+	font-size:100px;
 	color:#fff;
-	font-weight:bold;
 	text-shadow:2px 2px 2px rgba(0,0,0,.44);
 }
 .tagline
 {
 	display:inline-block;
 	width:100%;
-	font-family:Arial, Helvetica, sans-serif;
-	font-size:30px;
-	font-weight:bold;
+	font-family:'NeoSans';
+	font-size:31px;
 	text-shadow:2px 2px 2px rgba(0,0,0,.44);
 	color:#fff;
 	-webkit-text-stroke: 0.5px black;
 	margin-bottom:30px;
 }
+
 .get_more
 {
 	display:inline-block;
-	font-family: 'OpenSans';
+	font-family: 'NeoSans';
 	font-size:20px;
 	color:#fff;
-	font-weight:bold;
 	background:#01c3dc;
 	border:1px solid #01c3dc;
-	padding:10px 20px;
+	padding:10px 210px;
 	z-index:99;
 	position:relative;
 }
@@ -242,10 +255,10 @@ header
 .events_heading
 {
 	display:inline-block;
-	font-family: 'OpenSans';
-	font-size:40px;
-	font-weight:bold;
-	color:#01c3dc;
+	font-family: 'Exquisite';
+	font-size:50px;
+	color:black;
+	/*color:#01c3dc;*/
 	/*border-bottom:2px solid #01c3dc;*/
 }
 .event_main
@@ -288,7 +301,7 @@ header
 	font-size:18px;
 	color:#fff;
 	font-weight:lighter;
-	padding:20px 0 50px;
+	padding:20px 0 20px;
 }
 .event_ul
 {
@@ -337,14 +350,12 @@ header
 .feature_heading
 {
 	display:inline-block;
-	font-family: 'OpenSans';
-	font-size:40px;
-	font-weight:bold;
-	color:#01c3dc;
+	font-family: 'Exquisite';
+	font-size:50px;
+	color:white;
 	/*border-bottom:2px solid #01c3dc;*/
 	text-align:center;
 	margin-bottom:50px;
-	text-transform:uppercase;
 }
 .feature_ul
 {
@@ -665,10 +676,9 @@ header
 {
 	display:inline-block;
 	width:100%;
-	font-family: 'OpenSans';
-	font-weight:bold;
-	font-size:30px;
-	color:#000;
+	font-family: 'Exquisite';
+	font-size:50px;
+	color:black;
 	padding-bottom:10px;
 }
 .job_desc
