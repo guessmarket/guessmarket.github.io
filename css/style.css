@@ -1761,6 +1761,7 @@ footer
 		background-size:cover;
 	}
 	.small-menu{
+	display:none;
 		font-size:18px;
 		margin-top: 22px;
 	}
@@ -1862,6 +1863,7 @@ footer
 		font-size:14px;
 	}
 	.small-menu{
+	display:none;
 		margin-top:17px;
 	}
 	.lorem_ipsum{
