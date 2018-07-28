@@ -1481,7 +1481,7 @@ footer
 		padding: 8px 20px;
 	}
 	.events_heading{
-		font-size: 30px;
+		font-size: 40px;
 	}
 	.event_detail{
 		padding: 14px 30px 23px 20px;
@@ -1509,7 +1509,7 @@ footer
 		padding: 9px 20px;
 	}
 	.feature_heading{
-		font-size:30px;
+		font-size:40px;
 	}
 	.timeline_img{
 		width:100%;
@@ -1532,7 +1532,7 @@ footer
 		padding-top: 50px;
 	}
 	.job_heading{
-		font-size: 25px;
+		font-size: 40px;
 	}
 	.job_desc{
 		font-size:14px;
@@ -1623,7 +1623,7 @@ footer
 		padding: 30px 0;
 	}
 	.events_heading{
-		font-size:30px;
+		font-size:40px;
 	}
 	.event_img{
 		height:250px;
@@ -1881,7 +1881,7 @@ footer
 		font-size:20px;
 	}
 	.events_heading{
-		font-size:22px;
+		font-size:40px;
 	}
 	.event_img{
 		height:188px;
@@ -1900,7 +1900,7 @@ footer
 		padding: 22px 0;
 	}
 	.feature_heading{
-		font-size:26px;
+		font-size:40px;
 	}
 	.metrics_ul li{
 		width:100%;
