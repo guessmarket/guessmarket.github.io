@@ -184,6 +184,16 @@ header
 	display:inline-block;
 	width:100%;
 }
+.app_store
+{
+    opacity:0.6;
+    height:75px;
+    vertical-align:middle;
+}
+.app_store:hover
+{
+    opacity:1.0;
+}
 .lorem_ipsum
 {
 	display:inline-block;
@@ -1386,7 +1396,8 @@ footer
 .blue-color{
 	color:#01c3dc;
 }
-/*********************reponsave*************************/
+
+/*********************responsive*************************/
 @media only screen and (min-width:1066px)
 {
 	.event_img
@@ -1581,9 +1592,15 @@ footer
 	.social_ul li a{
 		padding: 20px 18px;
 	}
-
 }
+
 @media only screen and (min-width:100px) and (max-width:767px){
+    .app_store
+    {
+        opacity:0.6;
+        height:40px;
+        vertical-align:middle;
+    }
 	.menu_ul{
 		display:none;
 		text-align:center;
