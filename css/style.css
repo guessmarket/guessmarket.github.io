@@ -224,7 +224,7 @@ header
 	color:#fff;
 	background:#01c3dc;
 	border:1px solid #01c3dc;
-	padding:10px 210px;
+	padding:10px 150px;
 	z-index:99;
 	position:relative;
 }
@@ -266,12 +266,9 @@ header
 }
 .events_heading
 {
-	display:inline-block;
 	font-family: 'Exquisite';
 	font-size:50px;
 	color:black;
-	/*color:#01c3dc;*/
-	/*border-bottom:2px solid #01c3dc;*/
 }
 .event_main
 {
@@ -1104,16 +1101,13 @@ header
 }
 .platform_ul
 {
-	display:block;
-	width:705px;
 	margin:0 auto;
-	padding-top:30px;
-	vertical-align:middle;
 }
 .platform_ul li
 {
 	float:left;
-	margin-left:8%;
+	margin-top:20px;
+	padding:20px;
 	vertical-align:middle;
 }
 .platform_ul li a img
@@ -1491,7 +1485,7 @@ footer
 	}
 	.get_more{
 		font-size:18px;
-		padding: 8px 20px;
+		padding: 4px 20px;
 	}
 	.events_heading{
 		font-size: 40px;
@@ -1634,12 +1628,12 @@ footer
 		font-size:30px;
 	}
 	.tagline{
-		font-size:20px;
+		font-size:16px;
 		margin-bottom:10px;
 	}
 	.get_more{
 		font-size: 16px;
-		padding: 7px 20px;
+		padding: 4px 20px;
 	}
 	.events{
 		padding: 30px 0;
@@ -1657,7 +1651,7 @@ footer
 	}
 	.events .get_more{
 		font-size: 18px;
-		padding: 8px 20px;
+		padding: 4px 20px;
 	}
 	.feature_ul li{
 		width:48%;
@@ -1892,7 +1886,7 @@ footer
 		font-size: 40px;
 	}
 	.tagline{
-		font-size:20px;
+		font-size:16px;
 		margin-bottom:10px;
 	}
 	.slider_text_main {
